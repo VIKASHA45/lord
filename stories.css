@@ -1,0 +1,131 @@
+header{
+    padding: 16px 78px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px;
+    height: 40px;
+}
+.logo{
+    color:#0084ff;
+    width: 130px;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.stories{
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+.head{
+    padding-left: 50px;
+}
+.Dropdown{
+    padding-top: 0px;
+    padding-left: 8px;
+}
+
+#main-div{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.heading{
+    color: #000;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Filter{
+    
+    padding-top: 16px;
+    display:inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 8px;
+    height: 30px;
+    border: dotted;
+}
+
+#active{
+    color: #fff;
+    background-color: #0084ff;
+}
+
+.Category{
+    display: inline-block;
+    padding: 6px 14px;
+    color: #0084ff;
+    width: auto;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    margin-top: 20px;
+    margin: 0px auto;
+}
+
+.text{
+    margin-top: 20px;
+    display: inline-block;
+    width:calc(33.3% - 5px - 5px - 5px);
+        border-radius: 5px;
+    box-shadow: 2px 3px 3px gray;
+    margin: 0px auto;
+}
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.header{
+    padding-left: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0px;
+}
+.subHeader{
+    padding: 4px 24px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.7);
+    
+}
+.author{
+    color:#0096ff;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.body{
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    line-height: 1.43;
+    margin: 4px 0px;
+}
+
+
+
+
+footer{
+    background-color: #172146;
+    padding: 20px 16px;
+    margin-top: 20px;
+}
+body{
+    margin: 0px;
+}
+.ab{
+    border: dotted;
+}

@@ -1,0 +1,50 @@
+
+.btn{
+    cursor: pointer;
+    position: relative;
+     background-color:rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-weight: 700;
+     font-family:'Work Sans', sans-serif;
+     border-bottom-left-radius: 10px;
+     border-top-right-radius:10px;
+     transition:all 6s;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+     padding: 10px 20px;
+     
+ }
+ .btn:after, .btn:before{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    border: 0px solid #fff;
+    transition:1s;
+    
+    }
+    .btn:after{
+        top: -1px;
+        left: -1px;
+    border-top:5px solid red ;
+    border-left: 5px solid red;
+    }
+    .btn::before{
+        bottom:-1px;
+        right: -1px;
+    border-bottom:5px solid red ;
+    border-right: 5px solid red;
+    }
+    .btn:hover{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .btn:hover:after, .btn:hover:before{
+        width: 102%;
+        height: 102%;
+    }
+    .button{
+       display: inline-block;
+       background-color: #ffff;
+       margin: 50px;
+        
+    }
